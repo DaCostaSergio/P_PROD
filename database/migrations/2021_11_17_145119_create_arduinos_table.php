@@ -15,6 +15,7 @@ class CreateArduinosTable extends Migration
     {
         Schema::create('arduinos', function (Blueprint $table) {
             $table->id();
+            $table->string('mac-address');
             $table->timestamps();
         });
     }
