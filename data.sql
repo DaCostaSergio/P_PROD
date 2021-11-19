@@ -17,4 +17,16 @@ INSERT INTO `rooms` (`id`, `name`, `number_of_people`, `created_at`, `updated_at
 /* RECORDS */
 INSERT INTO `records` (`id`, `type`, `arduino_id`, `room_id`, `created_at`, `updated_at`) VALUES 
 (NULL, 'entry', 1, 1, NOW(), NOW()), 
+(NULL, 'entry', 1, 1, NOW(), NOW()), 
+(NULL, 'entry', 1, 1, NOW(), NOW()), 
+(NULL, 'exit', 1, 1, NOW(), NOW()), 
+(NULL, 'exit', 1, 1, NOW(), NOW()), 
+(NULL, 'entry', 2, 2, NOW(), NOW()), 
+(NULL, 'entry', 2, 2, NOW(), NOW()), 
+(NULL, 'entry', 2, 2, NOW(), NOW()), 
+(NULL, 'entry', 2, 2, NOW(), NOW()), 
+(NULL, 'entry', 2, 2, NOW(), NOW()), 
+(NULL, 'entry', 2, 2, NOW(), NOW()), 
+(NULL, 'exit', 2, 2, NOW(), NOW()),
+(NULL, 'exit', 2, 2, NOW(), NOW()),
 (NULL, 'exit', 2, 2, NOW(), NOW());
