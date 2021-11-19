@@ -15,7 +15,6 @@ class CreateRecordsTable extends Migration
     {
         Schema::create('records', function (Blueprint $table) {
             $table->id();
-            $table->datetime('date-time-of-record');
             $table->string('type');
             $table->foreignId('arduino_id');
             $table->foreignId('room_id');
