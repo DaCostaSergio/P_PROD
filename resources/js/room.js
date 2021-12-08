@@ -11,7 +11,7 @@ const myChart = new Chart(ctx, {
             label: 'Nombre de visiteurs',
             barPercentage: 1,
             categoryPercentage: 0.5,
-            data: [11, 20, 15, 16, 25, 0, 0, 0, 0, 0, 0 ,0],
+            data: entries,
             backgroundColor: 'rgba(255, 255, 255, 0.8)',
             borderColor: 'rgba(255, 255, 255, 1)',
             borderWidth: 2,
