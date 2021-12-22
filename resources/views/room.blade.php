@@ -13,18 +13,26 @@
 
     $timeofentry = new DateTime(($entries[0])->created_at->toTimeString());
 
-    dd($from->diff($timeofentry));
-    foreach ($entries as $entry)
-    {
+    //dd($from->diff($timeofentry));
 
-    }
+    $entriesArray = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+    /*foreach ($entries as $entry)
+    {
+        $create
+        for ($i = 0; $i < ; $i++) { 
+            
+        }
+    }*/
+
+    
     ?>
     
 @endsection
 @section('scripts')
     <canvas id="myChart" width="800" height="400"></canvas>
     <script>
-        {{ 'let entries = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];' }}
+        {{ 'let entries = [9,16,43,24,42,16,9,23,48,31,11,42,33,22,8,48];' }}
     </script>
     <script src="{{asset("js/room.js")}}"></script>
 @endsection
